@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: product-catalog-service
+  servlet:
+    multipart:
+      max-file-size: 10MB 
+  datasource:
+    url: jdbc:h2:mem:productcatalogdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+       enabled: true
